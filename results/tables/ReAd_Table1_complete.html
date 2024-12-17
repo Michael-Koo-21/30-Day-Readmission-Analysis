@@ -1,0 +1,801 @@
+<table border="1" class="dataframe">
+    <tr>
+        <td></td>
+        <td></td>
+        <th colspan="6" halign="left">Grouped by readmitted_30_days</th>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>Missing</td>
+        <td>Overall</td>
+        <td>0</td>
+        <td>1</td>
+        <td>Mean Diff/OR</td>
+        <td>CI (L, U)</td>
+        <td>P-Value</td>
+        <td>Test</td>
+    </tr>
+    <tr>
+        <td>n</td>
+        <td></td>
+        <td></td>
+        <td>546038</td>
+        <td>434993</td>
+        <td>111045</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>cci_score, n (%)</td>
+        <td>0</td>
+        <td></td>
+        <td>510143 (100.0)</td>
+        <td>407478 (79.9)</td>
+        <td>102665 (20.1)</td>
+        <td>0.827</td>
+        <td>(0.807, 0.849)</td>
+        <td>&lt;0.001</td>
+        <td>Chi-squared (warning: expected count &lt; 5)</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>1</td>
+        <td></td>
+        <td>29895 (100.0)</td>
+        <td>23160 (77.5)</td>
+        <td>6735 (22.5)</td>
+        <td>1.148</td>
+        <td>(1.116, 1.181)</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>2</td>
+        <td></td>
+        <td>2240 (100.0)</td>
+        <td>1771 (79.1)</td>
+        <td>469 (20.9)</td>
+        <td>1.038</td>
+        <td>(0.937, 1.149)</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>3</td>
+        <td></td>
+        <td>26 (100.0)</td>
+        <td>23 (88.5)</td>
+        <td>3 (11.5)</td>
+        <td>0.511</td>
+        <td>(0.153, 1.702)</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>6</td>
+        <td></td>
+        <td>3522 (100.0)</td>
+        <td>2414 (68.5)</td>
+        <td>1108 (31.5)</td>
+        <td>1.806</td>
+        <td>(1.682, 1.940)</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>7</td>
+        <td></td>
+        <td>200 (100.0)</td>
+        <td>138 (69.0)</td>
+        <td>62 (31.0)</td>
+        <td>1.76</td>
+        <td>(1.304, 2.376)</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>8</td>
+        <td></td>
+        <td>12 (100.0)</td>
+        <td>9 (75.0)</td>
+        <td>3 (25.0)</td>
+        <td>1.306</td>
+        <td>(0.354, 4.823)</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>length_of_stay, mean (SD)</td>
+        <td></td>
+        <td>0</td>
+        <td>4.2 (7.2)</td>
+        <td>4.0 (6.9)</td>
+        <td>5.0 (8.2)</td>
+        <td>0.998</td>
+        <td>(0.930, 1.067)</td>
+        <td>&lt;0.001</td>
+        <td>Two Sample T-test</td>
+    </tr>
+    <tr>
+        <td>age_group, n (%)</td>
+        <td>Middle</td>
+        <td></td>
+        <td>187306 (100.0)</td>
+        <td>146139 (78.0)</td>
+        <td>41167 (22.0)</td>
+        <td>1.164</td>
+        <td>(1.149, 1.181)</td>
+        <td>&lt;0.001</td>
+        <td>Chi-squared</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>Old</td>
+        <td></td>
+        <td>277130 (100.0)</td>
+        <td>221988 (80.1)</td>
+        <td>55142 (19.9)</td>
+        <td>0.946</td>
+        <td>(0.934, 0.959)</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>Young</td>
+        <td></td>
+        <td>81602 (100.0)</td>
+        <td>66866 (81.9)</td>
+        <td>14736 (18.1)</td>
+        <td>0.842</td>
+        <td>(0.826, 0.859)</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>discharge_disposition, n (%)</td>
+        <td>ACUTE HOSPITAL</td>
+        <td></td>
+        <td>2334 (100.0)</td>
+        <td>1583 (67.8)</td>
+        <td>751 (32.2)</td>
+        <td>1.864</td>
+        <td>(1.709, 2.034)</td>
+        <td>&lt;0.001</td>
+        <td>Chi-squared</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>AGAINST ADVICE</td>
+        <td></td>
+        <td>3393 (100.0)</td>
+        <td>2208 (65.1)</td>
+        <td>1185 (34.9)</td>
+        <td>2.114</td>
+        <td>(1.970, 2.270)</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>ASSISTED LIVING</td>
+        <td></td>
+        <td>622 (100.0)</td>
+        <td>492 (79.1)</td>
+        <td>130 (20.9)</td>
+        <td>1.035</td>
+        <td>(0.853, 1.256)</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>CHRONIC/LONG TERM ACUTE CARE</td>
+        <td></td>
+        <td>8125 (100.0)</td>
+        <td>5817 (71.6)</td>
+        <td>2308 (28.4)</td>
+        <td>1.566</td>
+        <td>(1.492, 1.644)</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>DIED</td>
+        <td></td>
+        <td>11722 (100.0)</td>
+        <td>11706 (99.9)</td>
+        <td>16 (0.1)</td>
+        <td>0.005</td>
+        <td>(0.003, 0.009)</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>HEALTHCARE FACILITY</td>
+        <td></td>
+        <td>50 (100.0)</td>
+        <td>42 (84.0)</td>
+        <td>8 (16.0)</td>
+        <td>0.746</td>
+        <td>(0.350, 1.589)</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>HOME</td>
+        <td></td>
+        <td>194205 (100.0)</td>
+        <td>159810 (82.3)</td>
+        <td>34395 (17.7)</td>
+        <td>0.773</td>
+        <td>(0.762, 0.784)</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>HOME HEALTH CARE</td>
+        <td></td>
+        <td>99305 (100.0)</td>
+        <td>74061 (74.6)</td>
+        <td>25244 (25.4)</td>
+        <td>1.434</td>
+        <td>(1.411, 1.457)</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>HOSPICE</td>
+        <td></td>
+        <td>5397 (100.0)</td>
+        <td>4608 (85.4)</td>
+        <td>789 (14.6)</td>
+        <td>0.668</td>
+        <td>(0.620, 0.721)</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>OTHER FACILITY</td>
+        <td></td>
+        <td>1592 (100.0)</td>
+        <td>1260 (79.1)</td>
+        <td>332 (20.9)</td>
+        <td>1.032</td>
+        <td>(0.915, 1.165)</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>PSYCH FACILITY</td>
+        <td></td>
+        <td>2965 (100.0)</td>
+        <td>1413 (47.7)</td>
+        <td>1552 (52.3)</td>
+        <td>4.349</td>
+        <td>(4.046, 4.676)</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>REHAB</td>
+        <td></td>
+        <td>13845 (100.0)</td>
+        <td>11295 (81.6)</td>
+        <td>2550 (18.4)</td>
+        <td>0.882</td>
+        <td>(0.844, 0.921)</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>SKILLED NURSING FACILITY</td>
+        <td></td>
+        <td>52658 (100.0)</td>
+        <td>40900 (77.7)</td>
+        <td>11758 (22.3)</td>
+        <td>1.141</td>
+        <td>(1.117, 1.166)</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>UNKNOWN</td>
+        <td></td>
+        <td>149825 (100.0)</td>
+        <td>119798 (80.0)</td>
+        <td>30027 (20.0)</td>
+        <td>0.975</td>
+        <td>(0.961, 0.990)</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>mdc_category, n (%)</td>
+        <td>Certain Conditions Originating in the Perinatal Period</td>
+        <td></td>
+        <td>3 (100.0)</td>
+        <td>3 (100.0)</td>
+        <td></td>
+        <td>0.653</td>
+        <td>(0.033, 13.034)</td>
+        <td>&lt;0.001</td>
+        <td>Chi-squared (warning: expected count &lt; 5)</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>Certain Infectious and Parasitic Diseases</td>
+        <td></td>
+        <td>12472 (100.0)</td>
+        <td>10041 (80.5)</td>
+        <td>2431 (19.5)</td>
+        <td>0.947</td>
+        <td>(0.906, 0.991)</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>Complications of Pregnancy, Childbirth, and the Puerperium</td>
+        <td></td>
+        <td>195 (100.0)</td>
+        <td>187 (95.9)</td>
+        <td>8 (4.1)</td>
+        <td>0.168</td>
+        <td> (0.083, 0.340)</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>Congenital Malformations and Chromosomal Abnormalities</td>
+        <td></td>
+        <td>983 (100.0)</td>
+        <td>805 (81.9)</td>
+        <td>178 (18.1)</td>
+        <td>0.866</td>
+        <td>(0.736, 1.019)</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>Diseases of the Blood and Blood-forming Organs and Immune Disorders</td>
+        <td></td>
+        <td>3288 (100.0)</td>
+        <td>2394 (72.8)</td>
+        <td>894 (27.2)</td>
+        <td>1.467</td>
+        <td>(1.358, 1.584)</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>Diseases of the Circulatory System</td>
+        <td></td>
+        <td>45956 (100.0)</td>
+        <td>38287 (83.3)</td>
+        <td>7669 (16.7)</td>
+        <td>0.769</td>
+        <td>(0.749, 0.788)</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>Diseases of the Digestive System</td>
+        <td></td>
+        <td>31424 (100.0)</td>
+        <td>24872 (79.1)</td>
+        <td>6552 (20.9)</td>
+        <td>1.034</td>
+        <td>(1.005, 1.063)</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>Diseases of the Ear and Mastoid Process</td>
+        <td></td>
+        <td>897 (100.0)</td>
+        <td>835 (93.1)</td>
+        <td>62 (6.9)</td>
+        <td>0.29</td>
+        <td>(0.224, 0.376)</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>Diseases of the Eye and Adnexa</td>
+        <td></td>
+        <td>78 (100.0)</td>
+        <td>66 (84.6)</td>
+        <td>12 (15.4)</td>
+        <td>0.712</td>
+        <td>(0.385, 1.317)</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>Diseases of the Genitourinary System</td>
+        <td></td>
+        <td>10796 (100.0)</td>
+        <td>8643 (80.1)</td>
+        <td>2153 (19.9)</td>
+        <td>0.975</td>
+        <td>(0.930, 1.023)</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>Diseases of the Musculoskeletal System and Connective Tissue</td>
+        <td></td>
+        <td>12789 (100.0)</td>
+        <td>11066 (86.5)</td>
+        <td>1723 (13.5)</td>
+        <td>0.604</td>
+        <td>(0.574, 0.635)</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>Diseases of the Nervous System</td>
+        <td></td>
+        <td>7788 (100.0)</td>
+        <td>6510 (83.6)</td>
+        <td>1278 (16.4)</td>
+        <td>0.766</td>
+        <td>(0.721, 0.814)</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>Diseases of the Nervous System and Sense Organs</td>
+        <td></td>
+        <td>4163 (100.0)</td>
+        <td>3412 (82.0)</td>
+        <td>751 (18.0)</td>
+        <td>0.861</td>
+        <td>(0.796, 0.932)</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>Diseases of the Respiratory System</td>
+        <td></td>
+        <td>16944 (100.0)</td>
+        <td>13889 (82.0)</td>
+        <td>3055 (18.0)</td>
+        <td>0.858</td>
+        <td>(0.824, 0.892)</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>Diseases of the Skin and Subcutaneous Tissue</td>
+        <td></td>
+        <td>4400 (100.0)</td>
+        <td>3681 (83.7)</td>
+        <td>719 (16.3)</td>
+        <td>0.764</td>
+        <td>(0.705, 0.827)</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>Endocrine, Nutritional, and Metabolic Diseases</td>
+        <td></td>
+        <td>9668 (100.0)</td>
+        <td>7700 (79.6)</td>
+        <td>1968 (20.4)</td>
+        <td>1.001</td>
+        <td>(0.952, 1.052)</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>External Causes of Morbidity and Mortality</td>
+        <td></td>
+        <td>6607 (100.0)</td>
+        <td>3530 (53.4)</td>
+        <td>3077 (46.6)</td>
+        <td>3.483</td>
+        <td>(3.317, 3.658)</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>Factors Influencing Health Status and Contact with Health Services</td>
+        <td></td>
+        <td>6242 (100.0)</td>
+        <td>3283 (52.6)</td>
+        <td>2959 (47.4)</td>
+        <td>3.6</td>
+        <td>(3.424, 3.785)</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>Infectious and Parasitic Diseases</td>
+        <td></td>
+        <td>2130 (100.0)</td>
+        <td>1700 (79.8)</td>
+        <td>430 (20.2)</td>
+        <td>0.991</td>
+        <td>(0.891, 1.102)</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>Injury and Poisoning</td>
+        <td></td>
+        <td>1376 (100.0)</td>
+        <td>1039 (75.5)</td>
+        <td>337 (24.5)</td>
+        <td>1.271</td>
+        <td>(1.124, 1.438)</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>Injury, Poisoning, and Certain Other Consequences of External Causes</td>
+        <td></td>
+        <td>29989 (100.0)</td>
+        <td>25119 (83.8)</td>
+        <td>4870 (16.2)</td>
+        <td>0.748</td>
+        <td>(0.725, 0.772)</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>Mental Disorders</td>
+        <td></td>
+        <td>3542 (100.0)</td>
+        <td>2114 (59.7)</td>
+        <td>1428 (40.3)</td>
+        <td>2.668</td>
+        <td>(2.494, 2.854)</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>Mental and Behavioural Disorders</td>
+        <td></td>
+        <td>19295 (100.0)</td>
+        <td>13217 (68.5)</td>
+        <td>6078 (31.5)</td>
+        <td>1.848</td>
+        <td>(1.791, 1.906)</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>Neoplasms</td>
+        <td></td>
+        <td>17886 (100.0)</td>
+        <td>13412 (75.0)</td>
+        <td>4474 (25.0)</td>
+        <td>1.32</td>
+        <td>(1.275, 1.366)</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>Other</td>
+        <td></td>
+        <td>266190 (100.0)</td>
+        <td>212467 (79.8)</td>
+        <td>53723 (20.2)</td>
+        <td>0.982</td>
+        <td>(0.969, 0.995)</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>Pregnancy, Childbirth, and the Puerperium</td>
+        <td></td>
+        <td>11870 (100.0)</td>
+        <td>10674 (89.9)</td>
+        <td>1196 (10.1)</td>
+        <td>0.433</td>
+        <td>(0.408, 0.460)</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>Symptoms, Signs, and Abnormal Clinical and Laboratory Findings</td>
+        <td></td>
+        <td>18459 (100.0)</td>
+        <td>15591 (84.5)</td>
+        <td>2868 (15.5)</td>
+        <td>0.713</td>
+        <td> (0.685, 0.743)</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>Symptoms, Signs, and Ill-defined Conditions</td>
+        <td></td>
+        <td>77 (100.0)</td>
+        <td>60 (77.9)</td>
+        <td>17 (22.1)</td>
+        <td>1.11</td>
+        <td>(0.648, 1.902)</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>Unknown</td>
+        <td></td>
+        <td>531 (100.0)</td>
+        <td>396 (74.6)</td>
+        <td>135 (25.4)</td>
+        <td>1.336</td>
+        <td>(1.099, 1.624)</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>ventilation_used, n (%)</td>
+        <td>0</td>
+        <td></td>
+        <td>535561 (100.0)</td>
+        <td>426067 (79.6)</td>
+        <td>109494 (20.4)</td>
+        <td>1.479</td>
+        <td>(1.401, 1.562)</td>
+        <td>&lt;0.001</td>
+        <td>Chi-squared</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>1</td>
+        <td></td>
+        <td>10477 (100.0)</td>
+        <td>8926 (85.2)</td>
+        <td>1551 (14.8)</td>
+        <td>0.676</td>
+        <td>(0.640, 0.714)</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>medication_count, mean (SD)</td>
+        <td></td>
+        <td>0</td>
+        <td>20.1 (15.9)</td>
+        <td>19.6 (15.6)</td>
+        <td>22.0 (16.9)</td>
+        <td>2.4</td>
+        <td>(2.255, 2.546)</td>
+        <td>&lt;0.001</td>
+        <td>Two Sample T-test</td>
+    </tr>
+    <tr>
+        <td>serum_creatinine, mean (SD)</td>
+        <td></td>
+        <td>130364</td>
+        <td>1.2 (1.3)</td>
+        <td>1.2 (1.2)</td>
+        <td>1.3 (1.5)</td>
+        <td>0.144</td>
+        <td>(0.130, 0.159)</td>
+        <td>&lt;0.001</td>
+        <td>Two Sample T-test</td>
+    </tr>
+    <tr>
+        <td>prior_admissions_1yr, n (%)</td>
+        <td>High frequency (5 or more admissions)</td>
+        <td></td>
+        <td>84453 (100.0)</td>
+        <td>52005 (61.6)</td>
+        <td>32448 (38.4)</td>
+        <td>3.04</td>
+        <td>(2.993, 3.089)</td>
+        <td>&lt;0.001</td>
+        <td>Chi-squared</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>Low frequency (1-2 admissions)</td>
+        <td></td>
+        <td>137810 (100.0)</td>
+        <td>109509 (79.5)</td>
+        <td>28301 (20.5)</td>
+        <td>1.017</td>
+        <td>(1.001, 1.032)</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>Moderate frequency (3-4 admissions)</td>
+        <td></td>
+        <td>48019 (100.0)</td>
+        <td>34767 (72.4)</td>
+        <td>13252 (27.6)</td>
+        <td>1.56</td>
+        <td>(1.527, 1.593)</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>No prior admissions (0 admissions)</td>
+        <td></td>
+        <td>275756 (100.0)</td>
+        <td>238712 (86.6)</td>
+        <td>37044 (13.4)</td>
+        <td>0.412</td>
+        <td>(0.406, 0.417)</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>num_lab_tests, mean (SD)</td>
+        <td></td>
+        <td>0</td>
+        <td>154.9 (336.6)</td>
+        <td>144.8 (318.4)</td>
+        <td>194.8 (397.3)</td>
+        <td>49.984</td>
+        <td>(46.701, 53.268)</td>
+        <td>&lt;0.001</td>
+        <td>Two Sample T-test</td>
+    </tr>
+    <tr>
+        <td>num_diagnoses, mean (SD)</td>
+        <td></td>
+        <td>0</td>
+        <td>11.7 (7.6)</td>
+        <td>11.3 (7.5)</td>
+        <td>13.0 (8.0)</td>
+        <td>1.641</td>
+        <td>(1.572, 1.710)</td>
+        <td>&lt;0.001</td>
+        <td>Two Sample T-test</td>
+    </tr>
+</table>
