@@ -97,7 +97,3 @@ This project analyzes 30-day hospital readmissions using the **MIMIC-IV** databa
 
 If you use this project, please cite:  
 Koo, M. "Predictive Indicators for 30-Day Hospital Readmission." *MIMIC-IV Analysis* (2024).  
-
----
-
-Replace the placeholder image links with actual file paths or visual URLs generated for the project. Let me know if you need help exporting visuals!
